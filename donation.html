@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href='https://fonts.googleapis.com/css2?family=Righteous&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Donation Drive 
+    </title>
+</head>
+
+<body>
+    <div class="header">
+        <ul class ="nav">
+            <li class = "nav-item">
+            <a class = "nav-link active" aria-current = "page" href = "home.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class = "nav-link" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+            <a class = "nav-link" aria-current="page" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class = "nav-link" aria-current="page" href="senslates.html">Senatorial Slate</a>
+            </li>
+            <li class="nav-item">
+            <a class = "nav-link" aria-current="page" href="donation.html">Donation</a>
+            </li>
+            <li class="nav-item">
+            <a class = "nav-link" aria-current="page" href="contact.html">Contacts</a>
+            </li>
+            </ul>
+    <body class="body2">
+        <div class="Bgpic">
+            <img src="http://assets.rappler.com/945264124B48429A9DA64B4D6089117D/img/8300ECBDDBE240B4B32DB07FC1D39B42/Robredo-Typhoon-Tisoy-victims-Albay-Sorsogon-December-9-2019-13.jpg" alt="LeniD">
+            <h1>Donation Drive</h1><!--Centered Header Text-->
+        </div>
+
+        <form>
+            <fieldset class="damn">
+                <legend> Personal Information</legend>
+
+                <div class="Char">
+                    <label for="First"> Name: </label>
+                    <input name="First Name" type="text" placeholder="First Name">
+                    <input name="Middle Name" type="text" placeholder="Middle Name">
+                    <input name="Last Name" type="text" placeholder="Last Name">
+                </div>
+
+                <div class="Char">
+                    <label for="cnum">Contact Information</label>
+                    <input name="Contact Number" type="tel" placeholder="Phone Number">
+                    <input name="Cellphone Number" type="tel" placeholder="Cellphone Number">
+                    <input name="Email Address" type="email" placeholder="Email Address"> 
+                </div>
+
+                <div class="fr">
+                    <label for="Adress">Street Address: </label>
+                    <input name="Address" type="text" placeholder="Current Address"><br>
+
+                    <label for="City">City of Residence: </label>
+                    <input name="City" type="text" placeholder="City of Residence"><br>
+                    
+                    <label for="State">State: </label>
+                    <input name="State" type="text" placeholder="State"><br>
+
+                    <label for="ZIP">ZIP: </label>
+                    <input name="ZIP" type="number" placeholder="ZIP"><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Cash Donation for Supported Charities</legend>
+                <div class="fr">
+                    <label for="leg">Check on the Charity/Charities that you want to donate </label> <br>
+                    <input type="checkbox" id="Charity1" name="Charity1" value="C1">
+                    <label for="Charity1">UNICEF Philippines</label><br>
+                    <input type="checkbox" id="Charity2" name="Charity2" value="C2">
+                    <label for="Charity3"> Caritas Manila</label><br>
+                    <input type="checkbox" id="Charity3" name="Charity3" value="C3">
+                    <label for="Charity3"> Kaya Natin Movement</label><br>
+                    <input type="checkbox" id="Charity4" name="Charity4" value="C4">
+                    <label for="Charity4">Project Pearls</label><br>
+                    <input type="checkbox" id="Charity5" name="Charity5" value="C5">
+                    <label for="Charity5">Rise Against Hunger Philippines</label> 
+                
+                <div class="td" >
+                    <br>
+                    <label for="CardType"> Card Type:  </label>
+                    
+                    <select id="CardType" name="CardType">
+                        <option value="Card Type"> Card Type </option>
+                        <option value="Visa"> Visa </option>
+                        <option value="Mastercard"> Mastercard </option>
+                        <option value="American Express"> American Express</option>
+    
+                    </select>
+                    <br>
+                    <label for="amt">Amount: </label>
+                    <input name="amt" id="amt" type="number" placeholder="Amount"><br>
+                    <label for="CVC" > CVC:</label>
+                    <input name="CVC" id="CVC" type="text"  placeholder="CVC"><br>
+    
+                    <label for="CCN" > Credit Card Number:</label>
+                    <input name="CCN" id="CCN" type="text" placeholder="Credit Card Number"><br>
+    
+                    <label for="Expiration Date" > Expiration Date: </label>
+                    
+                    <select  name="Month">
+                        <option value="Month"> Month</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="Year">
+                        <option value="Year"> Year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+                
+                </div>
+                </div>
+                <div class="ytyt">
+                <p> For on the counter donations use these Information:</p>
+                <p> Metrobank: 448-7-44801314</p>
+                <p>BPI: 9601-0002-42</p>
+                </div>
+
+                
+                <input  type="submit" value="CLICK HERE TO SUBMIT">
+            </fieldset>
+            <fieldset>
+                <legend>On-Site Donations</legend>
+                <div class="ytyt">
+                    <p>For On-Site Donations :</p>
+                    <p>LeniKiko2022 Volunteer Center is Located at:</p>
+                    <p>248 Katipunan Avenue Quezon City 1108 Metro Manila</p>
+
+                    <p>Contact Numbers</p>
+                    <p>0989 298 9893</p>
+                    <p>0969 298 9894</p>
+                    <p>0969 298 9895</p>
+                </div>
+            </fieldset>
+        </form>
+        <div class="haha">
+        <a href="https://www.facebook.com/VPLeniRobredoPH" target="_blank"><img src="IMAGES/Logo.png"></a> 
+        </div>
+        <div class="header1">
+            <h1 style="background-color: #EED3D7;">Thank You Ka-Pinky</h1>
+        </div>
+    </body>
+</body>
+
+
+</html>
